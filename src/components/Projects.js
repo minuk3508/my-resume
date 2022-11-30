@@ -3,7 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import responsiveWeb from "../assets/img/reposive.jpg";
 import ShadowDog from "../assets/img/shdowdog.gif";
 import happyPay from "../assets/img/happypay.png";
-import projImg2 from "../assets/img/project-img2.png";
+import dashboard from "../assets/img/dashboard.gif";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
@@ -15,36 +15,29 @@ export const Projects = () => {
       title: "My First Resposive Web",
       description: "처음 제작해본 반응형 웹",
       imgUrl: responsiveWeb,
+      RepoURL: "https://github.com/minuk3508/playkeyboard_webstore_project",
+      DEMOURL: "https://extraordinary-basbousa-068052.netlify.app/",
     },
     {
       title: "Shadow Dog Game",
       description: "바닐라 JS를 통한 2D게임 구현 연습 프로젝트",
       imgUrl: ShadowDog,
+      DEMOURL: "https://main.dlzjoj11mljgo.amplifyapp.com/",
+      RepoURL: "https://github.com/minuk3508/shadowdog",
     },
     {
       title: "Dutch Pay App for TDD Practice",
       description: `테스트코드 작성 연습을 위한 프로젝트, 여행 등에서 지출된 비용을 자동을 정산해줍니다.`,
       imgUrl: happyPay,
+      RepoURL: "https://github.com/minuk3508/happy-pay",
+      DEMOURL: "https://main.d241p40u8jvfq3.amplifyapp.com/group",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Admin Dashboard",
+      description: `적절한 라이브러리 사용으로 구현한 Admin페이지`,
+      imgUrl: dashboard,
+      DEMOURL: "https://main--rococo-griffin-b17ada.netlify.app/",
+      RepoURL: "https://github.com/minuk3508/admin-dashboard",
     },
   ];
 
@@ -56,13 +49,7 @@ export const Projects = () => {
             <TrackVisibility>
               <div>
                 <h2>Projects</h2>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book.
-                </p>
+                <p></p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav
                     variant="pills"

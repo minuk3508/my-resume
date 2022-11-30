@@ -6,6 +6,7 @@ import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
+import { AiFillGithub } from "react-icons/ai";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -73,8 +74,8 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#">
-                  <img src={navIcon1} alt="" />
+                <a href="https://github.com/minuk3508">
+                  <AiFillGithub color="white" size="" />
                 </a>
                 <a href="#">
                   <img src={navIcon2} alt="" />
