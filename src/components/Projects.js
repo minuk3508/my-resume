@@ -57,13 +57,13 @@ export const Projects = () => {
                     id="pills-tab"
                   >
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                      <Nav.Link eventKey="first">My Best</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                      <Nav.Link eventKey="second">Coming soon</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                      <Nav.Link eventKey="third">Coming soon</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp">
